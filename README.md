@@ -9,7 +9,7 @@
   <h3 align="center">Foreword</h3>
 
   <p align="center">
-    A repo demonstrating form creation and validation.
+    Demonstrating form validation with parsley and HTML5 built-in attributes.
     <br>
     <a href="https://github.com/jgome284/basic-js/issues">Report Bug</a>
     ·
@@ -18,39 +18,24 @@
 </p>
 
 ## Table of Contents
+
 - [Forms with JavaScript](#forms-with-javascript)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
-  - [Prerequisites](#prerequisites)
   - [Getting started](#getting-started)
   - [License](#license)
 
+<!-- ABOUT -->
 ## About
 
-This repository is a sandbox environment to practice JavaScript. It includes a [Development Container](./.devcontainer) (or Dev Container for short) built IAW the [dev containers specification](https://containers.dev/implementors/spec/). It runs on Debian Bookworm with Node.js, git for version control, and several extensions for Visual Studio Code.
-
-<!-- PREREQUISITES -->
-## Prerequisites
-
-To start, you need to have Docker Engine and Docker Compose on your machine. You can either:
-
-* Install Docker Desktop which includes both Docker Engine and Docker Compose
-* Install Docker Engine and Docker Compose as standalone binaries
-
-Additionally, this devcontainer is meant to work on Visual Studio Code. You should have it installed along with the [remote development pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to enable the IDE's devcontainers functionality.
+This repository demonstrates form validation techniques with HTML 5 built-in attributes and the parsley.js library.
 
 <!-- GETTING STARTED -->
 ## Getting started
 
-Open Docker Desktop to run the Docker daemon, a background process that manages and coordinates Docker containers on your system. On VS Code, start the development container by running `Dev Containers: Rebuild and Reopen In Container` in the command palette. It can be accessed with the keyboard shortcut `ctrl + shift + P` on your keyboard. Doing so will start the build process for the devcontainer, and Visual Studio will establish a remote connection to it.
+Git clone this repository to a local repository. This will give you access to all the files. Once downloaded, open the `login.html` file to kick start the form workflow. This will prompt you for email and password input... there is logic involved to validate your entry but you can put in whatever you'd like as long as it abids by form requirements. You'll know what they are if you make a mistake! 😉
 
-The [JavaScript folder](./js/) includes several scripts that can be run via node. For example:
-
-```JavaScript
-node js/rockPaperScissors.js
-```
-
-Alternatively, Some JS files are linked to a basic user interface that can be accessed via [html files](./html/).
+Once you get past the login screen, you'll be directed to the form via `form.html`. Submit your order for a burger 🍔 and you'll find success at `success.html`!
 
 ## License
 
